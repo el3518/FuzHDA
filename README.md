@@ -26,12 +26,15 @@ You can find the datasets [here](https://github.com/jindongwang/transferlearning
 
 ## Usage
 For source training:
+
 CUDA_VISIBLE_DEVICES=0 python image_target_of_oh_vs_fuz.py --cfg "cfgs/office/source_fuz.yaml" SETTING.S 0
 
 For black-box target training:
+
 CUDA_LAUNCH_BLOCKING=1 CUDA_VISIBLE_DEVICES=0 python image_target_of_oh_vs_fuz.py --cfg "cfgs/office/bb_target.yaml" SETTING.T 0
 
 For target training:
+
 CUDA_LAUNCH_BLOCKING=1 CUDA_VISIBLE_DEVICES=0 python image_target_of_oh_vs_fuz.py --cfg "cfgs/office/ht_lcfd_fuz.yaml" SETTING.T 0
 
 ## Results
