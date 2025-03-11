@@ -13,10 +13,10 @@ The code is developed based on [LCFD](https://github.com/tntek/source-free-domai
 
 ## Overview
 Source training:
-![Framework](https://github.com/el3518/DCA/blob/main/image/fuz-ht-Page-s.pdf)
+![Source](https://github.com/el3518/FuzHDA/blob/main/img/fuz-ht-Page-s.pdf)
 
 Target training:
-![Framework](https://github.com/el3518/DCA/blob/main/image/fuz-ht-Page-t.pdf)
+![Target](https://github.com/el3518/FuzHDA/blob/main/img/fuz-ht-Page-t.pdf)
 
 ## Setup
 Ensure that you have PyTorch 1.12.1+cu113
