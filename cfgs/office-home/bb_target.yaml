@@ -2,11 +2,11 @@ MODEL:
   ARCH: resnet50
   METHOD: bb_target
 SETTING:
-  DATASET: office
+  DATASET: office-home
   S: 0
   T: 1
   SEED: 2020
-  OUTPUT_SRC: bb_target
+  OUTPUT_SRC: bb_target_abs
 OPTIM:
   METHOD: SGD
   MOMENTUM: 0.9

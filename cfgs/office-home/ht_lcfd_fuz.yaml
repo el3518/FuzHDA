@@ -2,7 +2,7 @@ MODEL:
   ARCH: resnet50
   METHOD: ht_lcfd_fuz
 SETTING:
-  DATASET: office
+  DATASET: office-home
   S: 0
   T: 1
   SEED: 2020
